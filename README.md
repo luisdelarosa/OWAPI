@@ -31,6 +31,9 @@ OWAPI has a few requirements:
      
  2. **Create a new virtual environment.**
  
+      For Ubuntu on Windows 10, install venv via
+        `sudo apt-get install python3.4-venv`
+        
      `python3.5 -m venv ./venv`
      
  3. **Setup a Redis server.**
@@ -48,6 +51,8 @@ OWAPI has a few requirements:
 
      For debian-based systems:
         `sudo apt install libxslt-dev python3-dev build-essential zlib1g-dev`
+        
+
 
      `source ./venv/bin/activate && pip install wheel && pip install -r requirements.txt`
      
