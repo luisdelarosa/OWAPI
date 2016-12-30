@@ -34,6 +34,8 @@ OWAPI has a few requirements:
       For Ubuntu on Windows 10, install venv via
         `sudo apt-get install python3.4-venv`
         
+      For macOS, install python3 by first installing homebrew. Then do `brew install python3`.
+        
      `python3.5 -m venv ./venv`
      
  3. **Setup a Redis server.**
@@ -43,6 +45,8 @@ OWAPI has a few requirements:
      
      For Debian/Ubuntu, you can install one with:
      `sudo apt install redis-server`
+     
+     For macOS, install this via `brew install redis`.
      
      You can enable it with:
      `sudo systemctl enable redis-server && sudo systemctl start redis-server`.
