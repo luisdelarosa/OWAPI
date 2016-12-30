@@ -56,6 +56,8 @@ OWAPI has a few requirements:
 
      `source ./venv/bin/activate && pip install wheel && pip install -r requirements.txt`
      
+     Note: Make sure that your pip is 9.0 or higher. If you have an ancient one like 1.5.1, then asphalt-redis will not install properly.
+     
  5. **Start the OWAPI server.**
  
      `PYTHONPATH=. asphalt run config.yml`
